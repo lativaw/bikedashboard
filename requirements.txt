@@ -5,5 +5,5 @@ datetime
 numpy
 scipy
 streamlit
-pil
+PIL
 babel

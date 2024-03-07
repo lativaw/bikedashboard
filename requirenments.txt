@@ -5,6 +5,5 @@ datetime
 numpy
 scipy
 streamlit
-PIL
-Image
-Babel
+pil
+abel

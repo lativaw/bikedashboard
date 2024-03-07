@@ -64,7 +64,7 @@ def month(df):
   date=df.dteday.unique()
   return date
 
-df_day=pd.read_csv("/content/day.csv")
+df_day=pd.read_csv("/day.csv")
 print(df_day)
 
 def impute_outliers_IQR(df):

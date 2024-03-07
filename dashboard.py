@@ -156,7 +156,7 @@ w12['weathersit']=w12['weathersit'].replace([1,2,3,4],
  ['Clear Day','Mist/Cloudy', "Light Rain/Snow", 'Heavy Rain/Snow'])
 
 with st.sidebar:
-    logo = Image.open("/content/logo.png")
+    logo = Image.open("logo.png")
     st.image(logo, caption="Source: EmojiTerra")
 
 st.title('Bike Rental Dashboard :bike:')
